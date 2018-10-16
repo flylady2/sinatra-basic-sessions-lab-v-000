@@ -18,7 +18,7 @@ class App < Sinatra::Base
     @session = session
     @session[:item] = params[:item]
     #binding.pry
-    puts "#{params[:item]}"
+    "#{params[:item]}"
   end
 
 end
