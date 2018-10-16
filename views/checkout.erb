@@ -1,9 +1,9 @@
 require 'pry'
-Item: <%=@sessions[:item]%>
+Item: <%=params[:item]%>
 
 <form method="post" action="/checkout">
-  Item: <%=@sessions[:item]%>
-  <%binding.pry%>
+  Item: <%=params[:item]%>
+  <%#binding.pry%>
     <input type="submit" value="submit">
-    
+
 </form>
